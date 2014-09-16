@@ -60,7 +60,7 @@ var timerModule = angular.module('timer', [])
         });
 
         $scope.$on('timer-set-interval', function (e, interval) {
-          $scope.countdown = interval;
+          $scope.interval = interval;
         });
 
         function resetTimeout() {
